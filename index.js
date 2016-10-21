@@ -228,7 +228,7 @@ function portfolioComponent ({ data = {}, theme = {} } = {}) {
   }
   function unhoverPortfolio() { yo.update(element, template()) }
   function openNewTab() {
-    var url = "https://Cecana.github.io/sovica/"
+    var url = "https://cecana.github.io/sovica/"
     var tab = window.open(url, '_blank')
     tab.focus()
   }
